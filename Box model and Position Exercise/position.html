@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Playground</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    section {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px;
+      overflow: hidden; /* Prevents content overflow */
+      margin: 0;
+      padding: 0;
+    }
+
+    .section1 {
+      background: linear-gradient(to bottom, #001f3f, #3498db);
+    }
+
+    .section2 {
+      background: linear-gradient(to bottom, #8b0000, #ffa07a);
+    }
+
+    img {
+      max-width: 80%; /* Adjust image width as needed */
+      max-height: 80%; /* Adjust image height as needed */
+    }
+    </style>
+        
+</head>
+<body>
+    <div class="viewport" >
+        <section class="section1">
+            <img src="images/pink.jpg">
+        </section>
+
+    </div>
+    <div class="viewport">
+        <section class="section2">
+            <img src="images/green.jpg">
+        </section>
+
+    </div>
+</body>
+</html>
