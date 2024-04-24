@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'PT Serif', serif, 'PT Sans', sans-serif;
+}
+
+img {
+    width: 6.5%;
+    height: auto;
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em 1em 2em;
+}
+nav ul {
+    display: flex;
+    gap: 1em;
+}
+nav ul li {
+    list-style-type: none; 
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+nav {
+    padding-top: 1em;
+}
+.level1 {
+    padding-left: 11em;
+    
+}
+.background {
+    background-image: url('images/background.jpg');
+    background-size: cover; /* Adjust to cover the entire element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    padding-bottom: 14em;
+}
+.title {
+    margin-bottom: 0.3em;
+    color: white;
+    font-size: 47px;
+    
+}
+.level1 p:last-of-type {
+    color: white;
+    max-width: 540px;
+    line-height: 1.7;
+}
+.level2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 6em;
+    gap:2em;
+    padding-bottom: 7em;
+    border-bottom: 2px solid rgb(223, 223, 223);
+}
+.aims p:first-of-type, .objectives p:first-of-type {
+    font-size: 34px;
+    margin-bottom: 0.5em;
+}
+.aims p:last-of-type, .objectives p:last-of-type {
+    max-width: 570px;
+    margin-bottom: 2.7em;
+}
+.aims a, .objectives a {
+    text-decoration: none;
+    color: #B0825C;
+    border: 2px solid #B0825C;
+    padding: 0.4em;
+}
+.level3 {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 9em;
+    gap: 2em;
+}
+.level3 .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.dot {
+    height: 110px;
+    width: 110px;
+    background-color: #d5d4d4;
+    border-radius: 50%;
+    
+}
+.dot img {
+    width: 100%;
+    position:relative;
+    height: auto;
+}
+.level3 .sponsors, .level3 .partners {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.level3 .sponsors p:first-of-type, .level3 .partners p:first-of-type {
+    font-size: 34px;
+    margin-bottom: 0.5em;
+    color: #B0825C;
+
+}
+.level3 .sponsors p:last-of-type {
+    line-height: 1.7;
+}
+.level3 .images {
+    margin-bottom: 2em;
+     
+ 
+}
+.one {
+    display: flex;
+    padding-left: 9.5em;
+    padding-top: 3em;
+    gap: 5em;
+    background-color: black;
+    padding-bottom: 4em;
+}
+.one .address p span , .one .policies p span, .one .resources p span, .one .mobile-apps p span {
+    color: white;
+    font-size: 19.5px;
+}
+.one .address p:first-of-type , .one .policies p:first-of-type, .one .resources p:first-of-type, .one .mobile-apps p:first-of-type {
+    margin-bottom: 1em;
+}
+.address p:not(span), .policies p:not(span), .resources p:not(span), .mobile-apps p:not(span) {
+    font-size: 14px;
+    padding-bottom: 1em;
+    color: rgb(187, 179, 179);
+}
+.two {
+    padding-left: 10.8em;
+    color: rgb(187, 179, 179);
+    background-color: black;
+    font-size: 14px;
+    padding-bottom: 1em;
+}
