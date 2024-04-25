@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Inter';
+}
+body {
+    padding: 2em;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.main {
+    height: 219px;
+}
+.person img {
+    width: 10%;
+}
+.card-one, .card-two, .card-three {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 700px;
+   
+    
+}
+.text {
+    padding: 1.4em;
+    
+}
+.text p:first-of-type {
+    font-weight: bold;
+    color: rgb(122, 117, 117);
+    font-size: 13px;
+    margin-bottom: 0.4em;
+
+}
+.text .title {
+    font-size: 19px;
+    margin-bottom: 1.2em;
+}
+.text p:last-of-type {
+    font-size: 12.5px;
+    max-width: 310px;
+    padding-bottom: 2em;
+    border-bottom: 1.5px solid black;
+}
+.person {
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    padding-bottom: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.person img {
+    border-radius: 50%;
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    overflow: hidden;
+}
+.person .minutes {
+    padding-right: 2em;
+    color: rgb(168, 163, 163);
+    font-size: 14px;
+}
+.person .image-name {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
