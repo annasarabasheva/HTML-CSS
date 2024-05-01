@@ -1,0 +1,25 @@
+/* Add this to your styles.css file */
+
+/* body Styles */
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    background-color: white;
+}
+
+/* article Styles */
+article {
+    margin: 54px;
+    padding: 36px;
+    border-radius: 16px;
+    color: white;
+    text-indent: 40px;
+    background-color: rgb(51, 102, 153);
+}
+
+/* h1 Styles */
+h1 {
+    font-family: Georgia, serif;
+    font-weight: normal; /* By default, Georgia is bold. This makes it normal weight */
+}

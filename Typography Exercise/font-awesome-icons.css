@@ -1,0 +1,59 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+html {
+
+    font: 14px/1.5 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+nav {
+    width: 200px;
+    border: 1px solid #e3e3e3;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #f5f5f5;
+}
+
+li {
+    list-style: none;
+    height: 25px;
+    margin-left: -15px;
+}
+
+a {
+    text-decoration: none;
+    color: #c83025;
+}
+
+i {
+    width: 1.14em;
+    padding-right: 0.28em;
+}
+
+button {
+    padding: 0.6em 1em; /* Top & bottom padding 4px, Left & right padding 12px */
+    color: #ffffff; /* Text color: #ffffff */
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); /* Border color */
+    cursor: pointer; /* Cursor: pointer */
+    display: inline-block; /* Ensure buttons are on the same line */
+    line-height: 1; /* Set line-height equal to the button height for vertical centering */
+}
+
+
+button.shopping {
+
+    background-color: #83a94c;
+}
+
+button.info {
+    background-color: #008ed0;
+}
+
+button.delete {
+
+    background-color: #cc4036;
+}
